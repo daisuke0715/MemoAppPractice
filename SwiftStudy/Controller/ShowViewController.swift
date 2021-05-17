@@ -13,13 +13,15 @@ class ShowViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var bodyLabel: UILabel!
     
-    var memoList: [[Any]] = []
-    var indexPathRow: Int? = 0
+    var memoList: [(String, String)] = []
+    var indexPathRow: Int = 0
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = (memoList[indexPathRow!][0] as! String)
-        bodyLabel.text = (memoList[indexPathRow!][1] as! String)
+        titleLabel.text = memoList[indexPathRow].0
+        bodyLabel.text = memoList[indexPathRow].1
+        
+        self.view.addBackground(name: "background")
     }
     
     @IBAction func editMemo(_ sender: Any) {

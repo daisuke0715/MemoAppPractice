@@ -16,6 +16,7 @@
 		805D09E4264941C500886C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D09E2264941C500886C94 /* LaunchScreen.storyboard */; };
 		808085F1264983A6003051BF /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808085F0264983A6003051BF /* ShowViewController.swift */; };
 		808085F4264986C9003051BF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808085F3264986C9003051BF /* EditViewController.swift */; };
+		808085FD2649AF23003051BF /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 808085FC2649AF23003051BF /* ios */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		805D09E5264941C500886C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		808085F0264983A6003051BF /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
 		808085F3264986C9003051BF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		808085FC2649AF23003051BF /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				805D09D7264941BD00886C94 /* AppDelegate.swift */,
 				805D09D9264941BD00886C94 /* SceneDelegate.swift */,
 				805D09E0264941C500886C94 /* Assets.xcassets */,
+				808085FC2649AF23003051BF /* ios */,
 				805D09E5264941C500886C94 /* Info.plist */,
 			);
 			path = SwiftStudy;
@@ -151,6 +154,7 @@
 			files = (
 				805D09E4264941C500886C94 /* LaunchScreen.storyboard in Resources */,
 				805D09E1264941C500886C94 /* Assets.xcassets in Resources */,
+				808085FD2649AF23003051BF /* ios in Resources */,
 				805D09DF264941BD00886C94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,12 +319,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4P6W7GVC6D;
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daisukekawamura.SwiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -334,12 +340,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4P6W7GVC6D;
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daisukekawamura.SwiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
